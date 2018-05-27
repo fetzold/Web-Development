@@ -1,0 +1,115 @@
+ <!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+<!-- List of all headings -->
+	<h1>Heading &lt;h1&gt;</h1>
+	<h2>Heading &lt;h2&gt;</h2>
+	<h3>Heading &lt;h3&gt;</h3>
+	<h4>Heading &lt;h4&gt;</h4>
+	<h5>Heading &lt;h5&gt;</h5>
+	<h6>Heading &lt;h6&gt;</h6>
+	
+<!-- Paragraph -->
+	<h2>Paragraph-Tag - &lt;p&gt;</h2>
+	<p>First Paragraph</p>
+	<p>Second Paragraph</p>
+	
+<!-- Text Style -->
+	<h2>Bold and italicised text styling</h2>
+	<p>Bold: Do not use &lt;b&gt;-Tag because it does not really say anything about the text. <strong>Use the &lt;strong&gt;-Tag.</strong></p>
+	<p>Italicised: Do not use &lt;i&gt;-Tag. <em>Use the &lt;em&gt;-Tag</em> because emphasis means something more rather than just saying i.</p>
+	<p>&lt;b&gt;-Tag and &lt;i&gt;-Tag is the styling of something.</p>
+	<p>(&lt;strong&gt;) or emphasized (&lt;em&gt;) is more about the structure of it and what it means.</p>
+
+<!-- Lists -->
+	<h2>Ordered and unordered lists</h2>
+	<ol>
+		<li>Ordered List with &lt;ol&gt;-Tag</li>
+		<li>List item with &lt;li&gt;-Tag</li>
+	</ol>
+	
+	<ul>
+		<li>Unordered List with &lt;ul&gt;-Tag</li>
+		<li>List item with &lt;li&gt;-Tag</li>
+	</ul>
+
+<!-- Tables -->
+	<h2>Table</h2>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>name</th>
+				<th>age</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>Felix</th>
+				<th>25</th>
+			</tr>
+		</tbody>
+	</table>
+
+<!-- Input -->
+	<h2>Input</h2>
+	<input type="text">
+	<input type="color">
+	<input type="radio">
+	<input type="password">
+
+<!-- Forms -->
+	<h2>Form</h2>
+	<h5>Sign In</h5>
+	<form>
+		<input name="username" type="text" placeholder="username">
+		<input name="password" type="password" placeholder="password">
+		<button>Login</button>
+	</form>
+
+<!-- Labels in Forms-->
+	<h2>labels for accessibility</h2>
+	<h3>First opportunity</h3>
+	<form>
+		<label>
+			Username:
+			<input name="username" type="text" placeholder="username">
+		</label>
+		<label>
+			Password:
+			<input name="password" type="password" placeholder="password">
+		</label>
+		<button>Login</button>
+	</form>
+	
+	<h3>Alternate Syntax</h3>
+	<form>
+		<label for="username">Username:</label>
+		<input id="username" type="text"  placeholder="username">
+		
+		<label for="password">Password:</label>
+		<input id="password" type="password" placeholder="password">
+		
+		<button>Login</button>
+	</form>
+
+<!-- Simple Form Vaildations-->
+	<h2>Simple Form Validations</h2>
+	
+		<form>
+		<label for="username">Email:</label>
+		<input id="username" type="email"  placeholder="email" required>
+		
+		<label for="password">Password:</label>
+		<input id="password" type="password" placeholder="password" required>
+		
+		<button>Login</button>
+	</form>
+</body>
+
+</html> 
